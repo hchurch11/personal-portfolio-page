@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rock+Salt&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    display: inline;
+    background-color: #23425f;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffab5e;
+}
+
+/* Welcome Section - Yellow */
+
+.welcome-section {
+    background-color: #ffab5e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #a64942;
+}
+
+h1, h2 {
+    font-family: 'Rock Salt', cursive;
+}
+
+h3, p {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Project Tiles Section - Red */
+
+.project-section {
+    background-color: #a64942;
+    color: #ff7844;
+}
+
+.project-tile {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #BDBDBD;
+    margin: 10px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ff7844;
+}
+
+/* Contact Section - Orange */
+
+.contact-section {
+    background-color: #ff7844;
+    padding: 10px;
+    color: #23425f;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #23425f;
+}
+
+/* Footer footer footer */
+
+.footer {
+    background-color: #23425f;
+    color: #ffab5e;
+}
