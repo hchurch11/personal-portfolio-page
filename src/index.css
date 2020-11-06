@@ -12,10 +12,10 @@ html {
 nav {
     display: inline;
     background-color: #23425f;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1;
+}
+
+#navbar a {
+    margin: 0px 10px;
 }
 
 .nav-link {
@@ -27,11 +27,11 @@ nav {
 
 .welcome-section {
     background-color: #ffab5e;
+    color: #a64942;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #a64942;
 }
 
 h1, h2 {
@@ -47,18 +47,30 @@ h3, p {
 .project-section {
     background-color: #a64942;
     color: #ff7844;
+    padding: 50px 20px;
 }
 
 .project-tile {
-    padding: 10px;
+    padding: 40px;
     text-align: center;
-    border: 1px solid #BDBDBD;
-    margin: 10px;
+    border: 2px solid #BDBDBD;
+    margin: 50px;
+    border-radius: 10px;
 }
 
-.project-link {
-    text-decoration: none;
-    color: #ff7844;
+.project-tile a {
+    padding: 20px 0;
+}
+
+.project-image {
+    margin: 40px 0;
+}
+
+#more-projects-link {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 10px;
 }
 
 /* Contact Section - Orange */
@@ -67,6 +79,10 @@ h3, p {
     background-color: #ff7844;
     padding: 10px;
     color: #23425f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-links a {
@@ -79,4 +95,5 @@ h3, p {
 .footer {
     background-color: #23425f;
     color: #ffab5e;
+    padding: 20px;
 }

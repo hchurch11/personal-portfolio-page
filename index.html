@@ -13,54 +13,60 @@
 </head>
 
 <body class="container-fluid">
-    <nav class="d-flex justify-content-center" id="navbar">
-        <a href="#welcome-section" class="nav-link">About</a>
-        <a href="#projects" class="nav-link">Projects</a>
-        <a href="#contact" class="nav-link">Contact</a>
+    <nav class="d-flex justify-content-center navbar fixed-top" id="navbar">
+        <a href="#welcome-section" class="nav-link btn btn-outline-light">About</a>
+        <a href="#projects" class="nav-link btn btn-outline-light">Projects</a>
+        <a href="#contact" class="nav-link btn btn-outline-light">Contact</a>
     </nav>
     <section class="welcome-section vh-100" id="welcome-section">
         <h1 id="my-name">Heather Church</h1>
         <h3>frontend developer</h3>
     </section>
-    <section class="project-section " id="projects">
-        <div class="row d-flex justify-content-around">
-            <div class="col-3 project-tile">
-                <h2 class="project-name">Project 1</h2>
-                <a href="#" target="_blank" class="project-link">Link</a>
-                <img class="project-image" src="#" alt="" />
+    <section class="project-section" id="projects">
+        <div class="row ">
+            <div class="col project-tile ">
+                <h2 class="project-name">Online Resume</h2>
+                <img class="project-image img-thumbnail" src="./src/images/resume.png" alt="" />
+                <a href="https://github.com/hchurch11/resume" target="_blank"
+                    class="project-link btn btn-block btn-outline-light">Code</a>
+                <a href="https://heathersonlineresume.netlify.app" target="_blank"
+                    class="project-link btn btn-block btn-outline-light">Netlify</a>
             </div>
-            <div class="col-3 project-tile">
-                <h2 class="project-name">Project 2</h2>
-                <a href="#" target="_blank" class="project-link">Link</a>
-                <img class="project-image" src="#" alt="" />
-            </div>
-            <div class="col-3 project-tile">
-                <h2 class="project-name">Project 3</h2>
-                <a href="#" target="_blank" class="project-link">Link</a>
-                <img class="project-image" src="#" alt="" />
-            </div>
-        </div>
-        <div class="row d-flex justify-content-around">
-            <div class="col-3 project-tile">
-                <h2 class="project-name">Project 4</h2>
-                <a href="#" target="_blank" class="project-link">Link</a>
-                <img class="project-image" src="#" alt="" />
-            </div>
-            <div class="col-3 project-tile">
-                <h2 class="project-name">Project 5</h2>
-                <a href="#" target="_blank" class="project-link">Link</a>
-                <img class="project-image" src="#" alt="" />
-            </div>
-            <div class="col-3 project-tile">
-                <h2 class="project-name">Project 6</h2>
-                <a href="#" target="_blank" class="project-link">Link</a>
-                <img class="project-image" src="#" alt="" />
+            <div class="col project-tile ">
+                <h2 class="project-name">React Weather App</h2>
+                <img class="project-image  img-thumbnail 
+                 " src="./src/images/react_app.png" alt="" />
+                <a href="https://github.com/hchurch11/heathers-weather-app-react" target="_blank"
+                    class="project-link btn-block  btn btn-outline-light">Code</a>
+                <a href="https://heathers-weather-app-react.netlify.app" target="_blank"
+                    class="project-link btn-block  btn btn-outline-light">Netlify</a>
             </div>
         </div>
-        <a href="#" class="btn " target="_blank">See More Projects</a>
-
+        <div class="row ">
+            <div class="col project-tile">
+                <h2 class="project-name">Technical Document Page</h2>
+                <img class="project-image img-thumbnail" src=" ./src/images/technical_document.png" alt="" />
+                <a href="https://github.com/hchurch11/technical-document-page" target="_blank"
+                    class="project-link btn btn-block btn-outline-light">Code</a>
+                <a href="https://technical-document-page.netlify.app" target="_blank"
+                    class="project-link btn btn-block  btn-outline-light">Netlify</a>
+            </div>
+            <div class="col project-tile">
+                <h2 class="project-name">Product Landing Page</h2>
+                <img class="project-image img-thumbnail" src=" ./src/images/product_landing.png" alt="" />
+                <a href="https://github.com/hchurch11/product-landing-page" target="_blank"
+                    class="project-link btn  btn-block btn-outline-light">Code</a>
+                <a href="https://product-landing-page-project.netlify.app" target="_blank"
+                    class="project-link btn  btn-block btn-outline-light">Netlify</a>
+            </div>
+        </div>
+        <div class="see-more-projects d-block">
+            <a href="https://github.com/hchurch11?tab=repositories" class="project-link btn btn-outline-light "
+                target="_blank" id="more-projects-link">See More
+                Projects</a>
+        </div>
     </section>
-    <section id="contact" class="contact-section">
+    <section id="contact" class="contact-section vh-100">
         <div class="contact-section-header">
             <h2 class="text-center">Open for opportunities!</h2>
             <p class="text-center">Let's get to know each other! </p>
@@ -80,10 +86,11 @@
             <a href="tel:70-899-2512" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer text-center">
         <p>&copy; created by Heather Church on November 4, 2020</p>
         <p>part of a @freeCodeCamp Project</p>
     </footer>
+    <script src=https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js></script>
 </body>
 
 </html>
