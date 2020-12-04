@@ -56,6 +56,7 @@ h3, p {
     border: 2px solid #BDBDBD;
     margin: 50px;
     border-radius: 10px;
+    background-color: #91403a;
 }
 
 .project-tile a {
@@ -64,6 +65,10 @@ h3, p {
 
 .project-image {
     margin: 40px 0;
+}
+
+a.project-link {
+    background-color: #23425f;
 }
 
 #more-projects-link {
@@ -96,4 +101,20 @@ h3, p {
     background-color: #23425f;
     color: #ffab5e;
     padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .contact-section {
+        padding: 5px;
+        display: block;
+    }
+    .contact-section h2 {
+        padding-top: 50px;
+    }
+    .project-tile a {
+        padding: 5px 0;
+    }
+    .project-section {
+        padding: 0;
+    }
 }
